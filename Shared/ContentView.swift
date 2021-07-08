@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(MyViewsList, id: \.self) { view in
+                NavigationLink(
+                    destination: DetailView(item: view),
+                    label: {
+                        HStack(alignment: .center) {
+                            Image(systemName: view.icon)
+                            VStack {
+                                Text(view.title)
+                                Text(view.description).font(.subheadline)
+                            }
+                        }
+                    })
+                
+            }.navigationTitle("SwiftUI Playground")
+        }
     }
 }
 
