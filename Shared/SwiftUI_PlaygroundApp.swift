@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_PlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
 }

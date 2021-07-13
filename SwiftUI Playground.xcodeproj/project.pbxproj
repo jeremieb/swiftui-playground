@@ -21,7 +21,79 @@
 		1E29E25E2696CC3B00F635C7 /* MyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25C2696CC3B00F635C7 /* MyViews.swift */; };
 		1E29E2602696CF1B00F635C7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25F2696CF1B00F635C7 /* DetailView.swift */; };
 		1E29E2612696CF1B00F635C7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25F2696CF1B00F635C7 /* DetailView.swift */; };
+		1E6561A3269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
+		1E6561A4269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
+		1E6561A5269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
+		1E6561A6269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
+		1EA24F9E269D5B62006E0F7C /* NavigationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */; };
+		1EA24F9F269D5B62006E0F7C /* NavigationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */; };
+		1EA24FA6269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1EA24FA5269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1EA24FAB269D5E49006E0F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA24FAA269D5E49006E0F7C /* Assets.xcassets */; };
+		1EA24FB2269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1EA24FB1269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1EA24FB7269D5E49006E0F7C /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24FB6269D5E49006E0F7C /* SwiftUI_PlaygroundApp.swift */; };
+		1EA24FBB269D5E49006E0F7C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24FBA269D5E49006E0F7C /* NotificationController.swift */; };
+		1EA24FBD269D5E49006E0F7C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24FBC269D5E49006E0F7C /* NotificationView.swift */; };
+		1EA24FBF269D5E49006E0F7C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24FBE269D5E49006E0F7C /* ComplicationController.swift */; };
+		1EA24FC1269D5E49006E0F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA24FC0269D5E49006E0F7C /* Assets.xcassets */; };
+		1EA24FC4269D5E49006E0F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA24FC3269D5E49006E0F7C /* Preview Assets.xcassets */; };
+		1EA24FD9269D5E70006E0F7C /* SwiftUI_Playground_TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24FD8269D5E70006E0F7C /* SwiftUI_Playground_TVApp.swift */; };
+		1EA24FDD269D5E71006E0F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA24FDC269D5E71006E0F7C /* Assets.xcassets */; };
+		1EA24FE0269D5E71006E0F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA24FDF269D5E71006E0F7C /* Preview Assets.xcassets */; };
+		1EA24FE5269D5EC2006E0F7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2552696CB7B00F635C7 /* Constants.swift */; };
+		1EA24FE6269D5EC2006E0F7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2552696CB7B00F635C7 /* Constants.swift */; };
+		1EA24FE7269D5EC6006E0F7C /* MyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25C2696CC3B00F635C7 /* MyViews.swift */; };
+		1EA24FE8269D5EC6006E0F7C /* MyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25C2696CC3B00F635C7 /* MyViews.swift */; };
+		1EA24FE9269D5EC9006E0F7C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25F2696CF1B00F635C7 /* DetailView.swift */; };
+		1EA24FEA269D5ECA006E0F7C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25F2696CF1B00F635C7 /* DetailView.swift */; };
+		1EA24FEB269D5ECC006E0F7C /* NavigationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */; };
+		1EA24FEC269D5ECD006E0F7C /* NavigationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */; };
+		1EA24FED269D5ED0006E0F7C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2592696CBF400F635C7 /* Colors.swift */; };
+		1EA24FEE269D5ED1006E0F7C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2592696CBF400F635C7 /* Colors.swift */; };
+		1EA24FEF269D5F00006E0F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2312696C9B800F635C7 /* ContentView.swift */; };
+		1EA24FF1269D5F32006E0F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2312696C9B800F635C7 /* ContentView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA24FA7269D5E47006E0F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E29E22B2696C9B800F635C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA24FA4269D5E47006E0F7C;
+			remoteInfo = "SwiftUI Playground WatchKit App";
+		};
+		1EA24FB3269D5E49006E0F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E29E22B2696C9B800F635C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA24FB0269D5E49006E0F7C;
+			remoteInfo = "SwiftUI Playground WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EA24FCA269D5E49006E0F7C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1EA24FB2269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA24FCE269D5E49006E0F7C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1EA24FA6269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PlaygroundApp.swift; sourceTree = "<group>"; };
@@ -37,6 +109,27 @@
 		1E29E2592696CBF400F635C7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1E29E25C2696CC3B00F635C7 /* MyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViews.swift; sourceTree = "<group>"; };
 		1E29E25F2696CF1B00F635C7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1E6561A2269D65620016049D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLabelView.swift; sourceTree = "<group>"; };
+		1EA24FA2269D5E47006E0F7C /* SwiftUI Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA24FA5269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Playground WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA24FAA269D5E49006E0F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EA24FAC269D5E49006E0F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA24FB1269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUI Playground WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA24FB6269D5E49006E0F7C /* SwiftUI_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PlaygroundApp.swift; sourceTree = "<group>"; };
+		1EA24FBA269D5E49006E0F7C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1EA24FBC269D5E49006E0F7C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1EA24FBE269D5E49006E0F7C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1EA24FC0269D5E49006E0F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EA24FC3269D5E49006E0F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EA24FC5269D5E49006E0F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA24FC6269D5E49006E0F7C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1EA24FD6269D5E70006E0F7C /* SwiftUI Playground TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Playground TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA24FD8269D5E70006E0F7C /* SwiftUI_Playground_TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Playground_TVApp.swift; sourceTree = "<group>"; };
+		1EA24FDA269D5E70006E0F7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EA24FDC269D5E71006E0F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EA24FDF269D5E71006E0F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EA24FE1269D5E71006E0F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +147,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA24FAE269D5E49006E0F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA24FD3269D5E70006E0F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,6 +171,9 @@
 				1E29E22F2696C9B800F635C7 /* Shared */,
 				1E29E2392696C9B900F635C7 /* iOS */,
 				1E29E2402696C9B900F635C7 /* macOS */,
+				1EA24FA9269D5E47006E0F7C /* SwiftUI Playground WatchKit App */,
+				1EA24FB5269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension */,
+				1EA24FD7269D5E70006E0F7C /* SwiftUI Playground TV */,
 				1E29E2382696C9B900F635C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +197,10 @@
 			children = (
 				1E29E2372696C9B900F635C7 /* SwiftUI Playground.app */,
 				1E29E23F2696C9B900F635C7 /* SwiftUI Playground.app */,
+				1EA24FA2269D5E47006E0F7C /* SwiftUI Playground.app */,
+				1EA24FA5269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app */,
+				1EA24FB1269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension.appex */,
+				1EA24FD6269D5E70006E0F7C /* SwiftUI Playground TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +242,8 @@
 			isa = PBXGroup;
 			children = (
 				1E29E25F2696CF1B00F635C7 /* DetailView.swift */,
+				1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */,
+				1E6561A2269D65620016049D /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +254,66 @@
 				1E29E2592696CBF400F635C7 /* Colors.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1EA24FA9269D5E47006E0F7C /* SwiftUI Playground WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1EA24FAA269D5E49006E0F7C /* Assets.xcassets */,
+				1EA24FAC269D5E49006E0F7C /* Info.plist */,
+			);
+			path = "SwiftUI Playground WatchKit App";
+			sourceTree = "<group>";
+		};
+		1EA24FB5269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1EA24FF0269D5F0F006E0F7C /* Utilities */,
+				1EA24FB6269D5E49006E0F7C /* SwiftUI_PlaygroundApp.swift */,
+				1EA24FC0269D5E49006E0F7C /* Assets.xcassets */,
+				1EA24FC5269D5E49006E0F7C /* Info.plist */,
+				1EA24FC6269D5E49006E0F7C /* PushNotificationPayload.apns */,
+				1EA24FC2269D5E49006E0F7C /* Preview Content */,
+			);
+			path = "SwiftUI Playground WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1EA24FC2269D5E49006E0F7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EA24FC3269D5E49006E0F7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EA24FD7269D5E70006E0F7C /* SwiftUI Playground TV */ = {
+			isa = PBXGroup;
+			children = (
+				1EA24FD8269D5E70006E0F7C /* SwiftUI_Playground_TVApp.swift */,
+				1EA24FDA269D5E70006E0F7C /* ContentView.swift */,
+				1EA24FDC269D5E71006E0F7C /* Assets.xcassets */,
+				1EA24FE1269D5E71006E0F7C /* Info.plist */,
+				1EA24FDE269D5E71006E0F7C /* Preview Content */,
+			);
+			path = "SwiftUI Playground TV";
+			sourceTree = "<group>";
+		};
+		1EA24FDE269D5E71006E0F7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EA24FDF269D5E71006E0F7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EA24FF0269D5F0F006E0F7C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1EA24FBA269D5E49006E0F7C /* NotificationController.swift */,
+				1EA24FBC269D5E49006E0F7C /* NotificationView.swift */,
+				1EA24FBE269D5E49006E0F7C /* ComplicationController.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +353,74 @@
 			productReference = 1E29E23F2696C9B900F635C7 /* SwiftUI Playground.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1EA24FA1269D5E47006E0F7C /* SwiftUI Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA24FCF269D5E49006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground" */;
+			buildPhases = (
+				1EA24FA0269D5E47006E0F7C /* Resources */,
+				1EA24FCE269D5E49006E0F7C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA24FA8269D5E47006E0F7C /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Playground";
+			productName = "SwiftUI Playground";
+			productReference = 1EA24FA2269D5E47006E0F7C /* SwiftUI Playground.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1EA24FA4269D5E47006E0F7C /* SwiftUI Playground WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA24FCB269D5E49006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground WatchKit App" */;
+			buildPhases = (
+				1EA24FA3269D5E47006E0F7C /* Resources */,
+				1EA24FCA269D5E49006E0F7C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA24FB4269D5E49006E0F7C /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Playground WatchKit App";
+			productName = "SwiftUI Playground WatchKit App";
+			productReference = 1EA24FA5269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1EA24FB0269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA24FC7269D5E49006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground WatchKit Extension" */;
+			buildPhases = (
+				1EA24FAD269D5E49006E0F7C /* Sources */,
+				1EA24FAE269D5E49006E0F7C /* Frameworks */,
+				1EA24FAF269D5E49006E0F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Playground WatchKit Extension";
+			productName = "SwiftUI Playground WatchKit Extension";
+			productReference = 1EA24FB1269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1EA24FD5269D5E70006E0F7C /* SwiftUI Playground TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA24FE2269D5E71006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground TV" */;
+			buildPhases = (
+				1EA24FD2269D5E70006E0F7C /* Sources */,
+				1EA24FD3269D5E70006E0F7C /* Frameworks */,
+				1EA24FD4269D5E70006E0F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Playground TV";
+			productName = "SwiftUI Playground TV";
+			productReference = 1EA24FD6269D5E70006E0F7C /* SwiftUI Playground TV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +434,18 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					1E29E23E2696C9B900F635C7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1EA24FA1269D5E47006E0F7C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1EA24FA4269D5E47006E0F7C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1EA24FB0269D5E49006E0F7C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1EA24FD5269D5E70006E0F7C = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -209,6 +465,10 @@
 			targets = (
 				1E29E2362696C9B900F635C7 /* SwiftUI Playground (iOS) */,
 				1E29E23E2696C9B900F635C7 /* SwiftUI Playground (macOS) */,
+				1EA24FA1269D5E47006E0F7C /* SwiftUI Playground */,
+				1EA24FA4269D5E47006E0F7C /* SwiftUI Playground WatchKit App */,
+				1EA24FB0269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension */,
+				1EA24FD5269D5E70006E0F7C /* SwiftUI Playground TV */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +490,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA24FA0269D5E47006E0F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA24FA3269D5E47006E0F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA24FAB269D5E49006E0F7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA24FAF269D5E49006E0F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA24FC4269D5E49006E0F7C /* Preview Assets.xcassets in Resources */,
+				1EA24FC1269D5E49006E0F7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA24FD4269D5E70006E0F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA24FE0269D5E71006E0F7C /* Preview Assets.xcassets in Resources */,
+				1EA24FDD269D5E71006E0F7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -238,6 +531,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E29E25D2696CC3B00F635C7 /* MyViews.swift in Sources */,
+				1E6561A3269D65620016049D /* SettingsView.swift in Sources */,
+				1EA24F9E269D5B62006E0F7C /* NavigationLabelView.swift in Sources */,
 				1E29E2602696CF1B00F635C7 /* DetailView.swift in Sources */,
 				1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25A2696CBF400F635C7 /* Colors.swift in Sources */,
@@ -251,6 +546,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E29E25E2696CC3B00F635C7 /* MyViews.swift in Sources */,
+				1E6561A4269D65620016049D /* SettingsView.swift in Sources */,
+				1EA24F9F269D5B62006E0F7C /* NavigationLabelView.swift in Sources */,
 				1E29E2612696CF1B00F635C7 /* DetailView.swift in Sources */,
 				1E29E2462696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25B2696CBF400F635C7 /* Colors.swift in Sources */,
@@ -259,7 +556,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA24FAD269D5E49006E0F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA24FBB269D5E49006E0F7C /* NotificationController.swift in Sources */,
+				1EA24FEE269D5ED1006E0F7C /* Colors.swift in Sources */,
+				1EA24FE9269D5EC9006E0F7C /* DetailView.swift in Sources */,
+				1EA24FBF269D5E49006E0F7C /* ComplicationController.swift in Sources */,
+				1EA24FE7269D5EC6006E0F7C /* MyViews.swift in Sources */,
+				1EA24FB7269D5E49006E0F7C /* SwiftUI_PlaygroundApp.swift in Sources */,
+				1EA24FEF269D5F00006E0F7C /* ContentView.swift in Sources */,
+				1EA24FEB269D5ECC006E0F7C /* NavigationLabelView.swift in Sources */,
+				1EA24FBD269D5E49006E0F7C /* NotificationView.swift in Sources */,
+				1EA24FE5269D5EC2006E0F7C /* Constants.swift in Sources */,
+				1E6561A5269D65620016049D /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA24FD2269D5E70006E0F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA24FE8269D5EC6006E0F7C /* MyViews.swift in Sources */,
+				1E6561A6269D65620016049D /* SettingsView.swift in Sources */,
+				1EA24FD9269D5E70006E0F7C /* SwiftUI_Playground_TVApp.swift in Sources */,
+				1EA24FF1269D5F32006E0F7C /* ContentView.swift in Sources */,
+				1EA24FED269D5ED0006E0F7C /* Colors.swift in Sources */,
+				1EA24FEC269D5ECD006E0F7C /* NavigationLabelView.swift in Sources */,
+				1EA24FEA269D5ECA006E0F7C /* DetailView.swift in Sources */,
+				1EA24FE6269D5EC2006E0F7C /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA24FA8269D5E47006E0F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA24FA4269D5E47006E0F7C /* SwiftUI Playground WatchKit App */;
+			targetProxy = 1EA24FA7269D5E47006E0F7C /* PBXContainerItemProxy */;
+		};
+		1EA24FB4269D5E49006E0F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA24FB0269D5E49006E0F7C /* SwiftUI Playground WatchKit Extension */;
+			targetProxy = 1EA24FB3269D5E49006E0F7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1E29E2492696C9B900F635C7 /* Debug */ = {
@@ -470,6 +813,172 @@
 			};
 			name = Release;
 		};
+		1EA24FC8269D5E49006E0F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Playground WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Playground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1EA24FC9269D5E49006E0F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Playground WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Playground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		1EA24FCC269D5E49006E0F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				IBSC_MODULE = SwiftUI_Playground_WatchKit_Extension;
+				INFOPLIST_FILE = "SwiftUI Playground WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1EA24FCD269D5E49006E0F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				IBSC_MODULE = SwiftUI_Playground_WatchKit_Extension;
+				INFOPLIST_FILE = "SwiftUI Playground WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		1EA24FD0269D5E49006E0F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EA24FD1269D5E49006E0F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EA24FE3269D5E71006E0F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Playground TV/Preview Content\"";
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Playground TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		1EA24FE4269D5E71006E0F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Playground TV/Preview Content\"";
+				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Playground TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremieberduck.streaming.swiftui.playground.SwiftUI-Playground-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -496,6 +1005,42 @@
 			buildConfigurations = (
 				1E29E24F2696C9B900F635C7 /* Debug */,
 				1E29E2502696C9B900F635C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA24FC7269D5E49006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA24FC8269D5E49006E0F7C /* Debug */,
+				1EA24FC9269D5E49006E0F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA24FCB269D5E49006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA24FCC269D5E49006E0F7C /* Debug */,
+				1EA24FCD269D5E49006E0F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA24FCF269D5E49006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA24FD0269D5E49006E0F7C /* Debug */,
+				1EA24FD1269D5E49006E0F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA24FE2269D5E71006E0F7C /* Build configuration list for PBXNativeTarget "SwiftUI Playground TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA24FE3269D5E71006E0F7C /* Debug */,
+				1EA24FE4269D5E71006E0F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,24 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationView {
             List(MyViewsList, id: \.self) { view in
                 NavigationLink(
                     destination: DetailView(item: view),
                     label: {
-                        HStack(alignment: .center) {
-                            Image(systemName: view.icon)
-                            VStack {
-                                Text(view.title)
-                                Text(view.description).font(.subheadline)
-                            }
-                        }
+                        NavigationLabelView(view: view)
                     })
                 
-            }.navigationTitle("SwiftUI Playground")
+            }
+            .navigationTitle("SwiftUI Playground")
+            .navigationBarItems(trailing: NavigationToolItemsView())
         }
     }
+}
+
+// MARK: NAVIGATION TOOL ITEMS
+struct NavigationToolItemsView: View {
+    
+    @State private var showSettings: Bool = false
+
+    var body: some View {
+        
+        // Open Settings View
+        Button(action: {
+            showSettings.toggle()
+        }, label: {
+            Image(systemName: "gearshape.fill")
+        })
+        .sheet(isPresented: $showSettings) {
+            SettingsView()
+        }
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
