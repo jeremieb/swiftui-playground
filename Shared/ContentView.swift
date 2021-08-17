@@ -11,12 +11,24 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            List(MyViewsList, id: \.self) { view in
-                NavigationLink(
-                    destination: DetailView(item: view),
-                    label: {
-                        NavigationLabelView(view: view)
-                    })
+            
+            ScrollView {
+                
+                Section(
+                    header: SectionHeaderView(title: "Main"),
+                    
+                    content: {
+                    
+                    // Slider View
+                    NavigationLink(
+                        destination: SliderView(),
+                        label: {
+                            NavigationLabelView(view: MyViews(title: "Slider ", description: "Read a slider value", icon: "slider.horizontal.below.rectangle"))
+                        })
+                    Divider()
+
+                    }).padding(.top)
+  
             }
             .navigationTitle("SwiftUI Playground")
             .navigationBarItems(trailing: NavigationToolItemsView())
@@ -40,6 +52,28 @@ struct NavigationToolItemsView: View {
         .sheet(isPresented: $showSettings) {
             SettingsView()
         }
+    }
+    
+}
+
+// MARK: Section Header View
+struct SectionHeaderView: View {
+    
+    var title: String = "My Section"
+    
+    var body: some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text(title)
+                    .textCase(.uppercase)
+                    .font(.footnote)
+                    .foregroundColor(.accentColor)
+            }
+            Spacer()
+        }
+        .padding(.vertical, 5)
+        .padding(.horizontal)
+        .background(Color.accentColor.opacity(0.2))
     }
     
 }

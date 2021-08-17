@@ -59,6 +59,6 @@ struct PlaceholderView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(item: MyViewsList.first!)
+        DetailView(item: MyViews(title: "Test", description: "Lorem"))
     }
 }
