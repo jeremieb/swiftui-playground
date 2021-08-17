@@ -21,6 +21,10 @@
 		1E29E25E2696CC3B00F635C7 /* MyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25C2696CC3B00F635C7 /* MyViews.swift */; };
 		1E29E2602696CF1B00F635C7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25F2696CF1B00F635C7 /* DetailView.swift */; };
 		1E29E2612696CF1B00F635C7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E25F2696CF1B00F635C7 /* DetailView.swift */; };
+		1E57B42026CB9035005FB0FD /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */; };
+		1E57B42126CB9035005FB0FD /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */; };
+		1E57B42226CB9035005FB0FD /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */; };
+		1E57B42326CB9035005FB0FD /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */; };
 		1E6561A3269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
 		1E6561A4269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
 		1E6561A5269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
@@ -113,6 +117,7 @@
 		1E29E2592696CBF400F635C7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1E29E25C2696CC3B00F635C7 /* MyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViews.swift; sourceTree = "<group>"; };
 		1E29E25F2696CF1B00F635C7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
 		1E6561A2269D65620016049D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1E9089E726A0062D00C42BE8 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLabelView.swift; sourceTree = "<group>"; };
@@ -186,7 +191,7 @@
 		1E29E22F2696C9B800F635C7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1E9089E326A0048E00C42BE8 /* Libraries */,
+				1E9089E326A0048E00C42BE8 /* LibrariesViews */,
 				1E29E2582696CBE600F635C7 /* Extensions */,
 				1E29E2542696CB6800F635C7 /* Views */,
 				1E29E2532696CB5F00F635C7 /* ViewModel */,
@@ -262,12 +267,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		1E9089E326A0048E00C42BE8 /* Libraries */ = {
+		1E9089E326A0048E00C42BE8 /* LibrariesViews */ = {
 			isa = PBXGroup;
 			children = (
 				1E9089E726A0062D00C42BE8 /* SliderView.swift */,
+				1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */,
 			);
-			path = Libraries;
+			path = LibrariesViews;
 			sourceTree = "<group>";
 		};
 		1EA24FA9269D5E47006E0F7C /* SwiftUI Playground WatchKit App */ = {
@@ -552,6 +558,7 @@
 				1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25A2696CBF400F635C7 /* Colors.swift in Sources */,
 				1E29E2432696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */,
+				1E57B42026CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 				1E29E2562696CB7B00F635C7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +575,7 @@
 				1E29E2462696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25B2696CBF400F635C7 /* Colors.swift in Sources */,
 				1E29E2442696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */,
+				1E57B42126CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 				1E29E2572696CB7B00F635C7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +596,7 @@
 				1E9089EA26A0062D00C42BE8 /* SliderView.swift in Sources */,
 				1EA24FE5269D5EC2006E0F7C /* Constants.swift in Sources */,
 				1E6561A5269D65620016049D /* SettingsView.swift in Sources */,
+				1E57B42226CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +612,7 @@
 				1EA24FED269D5ED0006E0F7C /* Colors.swift in Sources */,
 				1EA24FEC269D5ECD006E0F7C /* NavigationLabelView.swift in Sources */,
 				1EA24FEA269D5ECA006E0F7C /* DetailView.swift in Sources */,
+				1E57B42326CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 				1EA24FE6269D5EC2006E0F7C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
