@@ -25,6 +25,10 @@
 		1E6561A4269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
 		1E6561A5269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
 		1E6561A6269D65620016049D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6561A2269D65620016049D /* SettingsView.swift */; };
+		1E9089E826A0062D00C42BE8 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9089E726A0062D00C42BE8 /* SliderView.swift */; };
+		1E9089E926A0062D00C42BE8 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9089E726A0062D00C42BE8 /* SliderView.swift */; };
+		1E9089EA26A0062D00C42BE8 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9089E726A0062D00C42BE8 /* SliderView.swift */; };
+		1E9089EB26A0062D00C42BE8 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9089E726A0062D00C42BE8 /* SliderView.swift */; };
 		1EA24F9E269D5B62006E0F7C /* NavigationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */; };
 		1EA24F9F269D5B62006E0F7C /* NavigationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */; };
 		1EA24FA6269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1EA24FA5269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -110,6 +114,7 @@
 		1E29E25C2696CC3B00F635C7 /* MyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViews.swift; sourceTree = "<group>"; };
 		1E29E25F2696CF1B00F635C7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1E6561A2269D65620016049D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1E9089E726A0062D00C42BE8 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		1EA24F9D269D5B62006E0F7C /* NavigationLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLabelView.swift; sourceTree = "<group>"; };
 		1EA24FA2269D5E47006E0F7C /* SwiftUI Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA24FA5269D5E47006E0F7C /* SwiftUI Playground WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Playground WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +186,7 @@
 		1E29E22F2696C9B800F635C7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1E9089E326A0048E00C42BE8 /* Libraries */,
 				1E29E2582696CBE600F635C7 /* Extensions */,
 				1E29E2542696CB6800F635C7 /* Views */,
 				1E29E2532696CB5F00F635C7 /* ViewModel */,
@@ -254,6 +260,14 @@
 				1E29E2592696CBF400F635C7 /* Colors.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1E9089E326A0048E00C42BE8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1E9089E726A0062D00C42BE8 /* SliderView.swift */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 		1EA24FA9269D5E47006E0F7C /* SwiftUI Playground WatchKit App */ = {
@@ -533,6 +547,7 @@
 				1E29E25D2696CC3B00F635C7 /* MyViews.swift in Sources */,
 				1E6561A3269D65620016049D /* SettingsView.swift in Sources */,
 				1EA24F9E269D5B62006E0F7C /* NavigationLabelView.swift in Sources */,
+				1E9089E826A0062D00C42BE8 /* SliderView.swift in Sources */,
 				1E29E2602696CF1B00F635C7 /* DetailView.swift in Sources */,
 				1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25A2696CBF400F635C7 /* Colors.swift in Sources */,
@@ -548,6 +563,7 @@
 				1E29E25E2696CC3B00F635C7 /* MyViews.swift in Sources */,
 				1E6561A4269D65620016049D /* SettingsView.swift in Sources */,
 				1EA24F9F269D5B62006E0F7C /* NavigationLabelView.swift in Sources */,
+				1E9089E926A0062D00C42BE8 /* SliderView.swift in Sources */,
 				1E29E2612696CF1B00F635C7 /* DetailView.swift in Sources */,
 				1E29E2462696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25B2696CBF400F635C7 /* Colors.swift in Sources */,
@@ -569,6 +585,7 @@
 				1EA24FEF269D5F00006E0F7C /* ContentView.swift in Sources */,
 				1EA24FEB269D5ECC006E0F7C /* NavigationLabelView.swift in Sources */,
 				1EA24FBD269D5E49006E0F7C /* NotificationView.swift in Sources */,
+				1E9089EA26A0062D00C42BE8 /* SliderView.swift in Sources */,
 				1EA24FE5269D5EC2006E0F7C /* Constants.swift in Sources */,
 				1E6561A5269D65620016049D /* SettingsView.swift in Sources */,
 			);
@@ -581,6 +598,7 @@
 				1EA24FE8269D5EC6006E0F7C /* MyViews.swift in Sources */,
 				1E6561A6269D65620016049D /* SettingsView.swift in Sources */,
 				1EA24FD9269D5E70006E0F7C /* SwiftUI_Playground_TVApp.swift in Sources */,
+				1E9089EB26A0062D00C42BE8 /* SliderView.swift in Sources */,
 				1EA24FF1269D5F32006E0F7C /* ContentView.swift in Sources */,
 				1EA24FED269D5ED0006E0F7C /* Colors.swift in Sources */,
 				1EA24FEC269D5ECD006E0F7C /* NavigationLabelView.swift in Sources */,

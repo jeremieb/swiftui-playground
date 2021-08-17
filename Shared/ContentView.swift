@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+
     var body: some View {
         NavigationView {
             List(MyViewsList, id: \.self) { view in
@@ -17,7 +17,6 @@ struct ContentView: View {
                     label: {
                         NavigationLabelView(view: view)
                     })
-                
             }
             .navigationTitle("SwiftUI Playground")
             .navigationBarItems(trailing: NavigationToolItemsView())
