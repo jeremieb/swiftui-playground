@@ -1,2 +1,5 @@
-# swiftui-playground
-SwiftUI Playground live sessions on Twitch (https://twitch.tv/monsieurbee)
+# SwiftUI Playground
+
+SwiftUI Project for learning and sharing. Everything is coded live, on Twitch. You can follow the sessions and the schedule from my channel (https://twitch.tv/monsieurbee)
+
+![Screenshot](/images/screenshot.png)
