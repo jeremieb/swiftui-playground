@@ -13,13 +13,13 @@ struct NavigationLabelView: View {
     
     var body: some View {
         HStack(alignment: .center) {
-            Image(systemName: view.icon).foregroundColor(.accentColor)
+            Image(systemName: view.icon).foregroundColor(view.color ?? .accentColor)
             VStack(alignment: .leading) {
-                Text(view.title).fontWeight(.semibold)
+                Text(view.title).fontWeight(.semibold).foregroundColor(view.color ?? .accentColor)
                 Text(view.description).font(.subheadline).foregroundColor(.gray)
             }
             Spacer()
-        }.padding(.horizontal)
+        }.padding(.horizontal, 8)
     }
 }
 

@@ -32,7 +32,7 @@ struct ContentView: View {
                         NavigationLink(
                             destination: GroupBoxView(),
                             label: {
-                                NavigationLabelView(view: MyViews(title: "Simple Group Box", description: "A list of group box", icon: "square.grid.2x2.fill"))
+                                NavigationLabelView(view: MyViews(title: "Simple Group Box", description: "A list of group box", icon: "square.grid.2x2.fill", color: .green))
                             }
                         )
                         Divider()
