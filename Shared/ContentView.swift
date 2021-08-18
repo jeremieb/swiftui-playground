@@ -46,7 +46,7 @@ struct ContentView: View {
     }
 }
 
-// MARK: NAVIGATION TOOL ITEMS
+// MARK: Navigation Items View
 struct NavigationToolItemsView: View {
     
     @State private var showSettings: Bool = false
@@ -65,7 +65,6 @@ struct NavigationToolItemsView: View {
             }
         }
     }
-    
 }
 
 // MARK: Section Header View
@@ -87,7 +86,6 @@ struct SectionHeaderView: View {
         .padding(.horizontal)
         .background(Color.accentColor.opacity(0.2))
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
