@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
     var body: some View {
         NavigationView {
             
@@ -18,17 +18,27 @@ struct ContentView: View {
                     header: SectionHeaderView(title: "Main"),
                     
                     content: {
-                    
-                    // Slider View
-                    NavigationLink(
-                        destination: SliderView(),
-                        label: {
-                            NavigationLabelView(view: MyViews(title: "Slider ", description: "Read a slider value", icon: "slider.horizontal.below.rectangle"))
-                        })
-                    Divider()
-
+                        
+                        // Slider View
+                        NavigationLink(
+                            destination: SliderView(),
+                            label: {
+                                NavigationLabelView(view: MyViews(title: "Slider ", description: "Read a slider value", icon: "slider.horizontal.below.rectangle"))
+                            }
+                        )
+                        Divider()
+                        
+                        //Group Box
+                        NavigationLink(
+                            destination: GroupBoxView(),
+                            label: {
+                                NavigationLabelView(view: MyViews(title: "Simple Group Box", description: "A list of group box", icon: "square.grid.2x2.fill"))
+                            }
+                        )
+                        Divider()
+                        
                     }).padding(.top)
-  
+                
             }
             .navigationTitle("SwiftUI Playground")
             .navigationBarItems(trailing: NavigationToolItemsView())
@@ -40,7 +50,7 @@ struct ContentView: View {
 struct NavigationToolItemsView: View {
     
     @State private var showSettings: Bool = false
-
+    
     var body: some View {
         
         // Open Settings View

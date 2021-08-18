@@ -9,9 +9,14 @@ import SwiftUI
 
 struct GroupBoxView: View {
     
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
+    
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: [.init(), .init()]) {
+            LazyVGrid(columns: columns) {
                 ForEach(myGroupBoxList, id: \.self) { box in
                     GroupBox(
                         label: Label(box.title, systemImage: box.icon)
@@ -24,13 +29,13 @@ struct GroupBoxView: View {
                     }.groupBoxStyle(CardGroupBoxStyle())
                 }
             }.padding()
-        }
+        }.navigationTitle("Simple Group Box")
     }
     
     private var myGroupBoxList: [MyGroupBox] = [
         MyGroupBox(title: "Hear Rate", icon: "heart.fill", description: "You heart rate is 90 BPM.", color: .red),
         MyGroupBox(title: "Walking", icon: "figure.walk", description: "You have walk 3.45 km today", color: .green),
-        MyGroupBox(title: "Noise", icon: "ear.fill", description: "You've been in a noisy environment today", color: .orange)
+        MyGroupBox(title: "Noise", icon: "ear.fill", description: "You've been in a noisy environment.", color: .orange)
     ]
 }
 
@@ -42,13 +47,15 @@ struct MyGroupBox: Hashable {
     var color: Color = .red
 }
 
-
 // MARK: Box Main Style
 struct CardGroupBoxStyle: GroupBoxStyle {
     func makeBody(configuration: Configuration) -> some View {
-        VStack(alignment: .leading) {
-            configuration.label
-            configuration.content
+        HStack {
+            VStack(alignment: .leading) {
+                configuration.label
+                configuration.content
+            }
+            Spacer()
         }
         .padding()
         .background(Color(.systemGroupedBackground))
