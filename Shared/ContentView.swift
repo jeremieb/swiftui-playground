@@ -37,6 +37,15 @@ struct ContentView: View {
                         )
                         Divider()
                         
+                        // Advanced Group Box
+                        NavigationLink (
+                            destination: GroupBoxAdvancedView(),
+                            label: {
+                                NavigationLabelView(view: MyViews(title: "Advanced Group Box", description: "Next level grouped boxes...", icon: "rectangle.grid.1x2.fill", color: .green))
+                            }
+                        )
+                        Divider()
+                        
                     }).padding(.top)
                 
             }

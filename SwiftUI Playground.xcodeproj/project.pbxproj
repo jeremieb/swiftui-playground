@@ -59,6 +59,10 @@
 		1EA24FEE269D5ED1006E0F7C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2592696CBF400F635C7 /* Colors.swift */; };
 		1EA24FEF269D5F00006E0F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2312696C9B800F635C7 /* ContentView.swift */; };
 		1EA24FF1269D5F32006E0F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2312696C9B800F635C7 /* ContentView.swift */; };
+		1EAAA36F26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */; };
+		1EAAA37026CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */; };
+		1EAAA37126CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */; };
+		1EAAA37226CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +144,7 @@
 		1EA24FDC269D5E71006E0F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA24FDF269D5E71006E0F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1EA24FE1269D5E71006E0F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxAdvancedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +277,7 @@
 			children = (
 				1E9089E726A0062D00C42BE8 /* SliderView.swift */,
 				1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */,
+				1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */,
 			);
 			path = LibrariesViews;
 			sourceTree = "<group>";
@@ -551,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E29E25D2696CC3B00F635C7 /* MyViews.swift in Sources */,
+				1EAAA36F26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1E6561A3269D65620016049D /* SettingsView.swift in Sources */,
 				1EA24F9E269D5B62006E0F7C /* NavigationLabelView.swift in Sources */,
 				1E9089E826A0062D00C42BE8 /* SliderView.swift in Sources */,
@@ -568,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E29E25E2696CC3B00F635C7 /* MyViews.swift in Sources */,
+				1EAAA37026CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1E6561A4269D65620016049D /* SettingsView.swift in Sources */,
 				1EA24F9F269D5B62006E0F7C /* NavigationLabelView.swift in Sources */,
 				1E9089E926A0062D00C42BE8 /* SliderView.swift in Sources */,
@@ -590,6 +598,7 @@
 				1EA24FBF269D5E49006E0F7C /* ComplicationController.swift in Sources */,
 				1EA24FE7269D5EC6006E0F7C /* MyViews.swift in Sources */,
 				1EA24FB7269D5E49006E0F7C /* SwiftUI_PlaygroundApp.swift in Sources */,
+				1EAAA37126CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1EA24FEF269D5F00006E0F7C /* ContentView.swift in Sources */,
 				1EA24FEB269D5ECC006E0F7C /* NavigationLabelView.swift in Sources */,
 				1EA24FBD269D5E49006E0F7C /* NotificationView.swift in Sources */,
@@ -605,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA24FE8269D5EC6006E0F7C /* MyViews.swift in Sources */,
+				1EAAA37226CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1E6561A6269D65620016049D /* SettingsView.swift in Sources */,
 				1EA24FD9269D5E70006E0F7C /* SwiftUI_Playground_TVApp.swift in Sources */,
 				1E9089EB26A0062D00C42BE8 /* SliderView.swift in Sources */,
