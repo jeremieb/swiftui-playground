@@ -60,7 +60,9 @@ struct NavigationToolItemsView: View {
             Image(systemName: "gearshape.fill")
         })
         .sheet(isPresented: $showSettings) {
-            SettingsView()
+            NavigationView {
+                SettingsView().navigationBarTitle("Settings")
+            }
         }
     }
     

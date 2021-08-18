@@ -9,10 +9,34 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        NavigationView {
-            Image(systemName: "gearshape.fill")
-        }.navigationTitle(Text("My Settings"))
+        List {
+            NavigationLink(
+                destination: Text("Destination"),
+                label: {
+                    SettingsLabelView(label: "Thing", icon: "gearshape.fill", color: .red)
+                })
+            NavigationLink(
+                destination: Text("Destination"),
+                label: {
+                    SettingsLabelView(label: "Second Thing", icon: "paintbrush.fill", color: .blue)
+                })
+        }
     }
+}
+
+struct SettingsLabelView: View {
+    
+    var label: String
+    var icon: String
+    var color: Color = .red
+    
+    var body: some View {
+        HStack {
+            Image(systemName: icon).foregroundColor(color)
+            Text(label)
+        }
+    }
+    
 }
 
 struct SettingsView_Previews: PreviewProvider {
