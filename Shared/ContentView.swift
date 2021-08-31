@@ -15,9 +15,7 @@ struct ContentView: View {
             ScrollView {
                 
                 Section(
-                    header: SectionHeaderView(title: "Main"),
-                    
-                    content: {
+                    header: SectionHeaderView(title: "SwiftUI 2")) {
                         
                         // Slider View
                         NavigationLink(
@@ -32,7 +30,7 @@ struct ContentView: View {
                         NavigationLink(
                             destination: GroupBoxView(),
                             label: {
-                                NavigationLabelView(view: MyViews(title: "Simple Group Box", description: "A list of group box", icon: "square.grid.2x2.fill", color: .green))
+                                NavigationLabelView(view: MyViews(title: "Simple Group Box", description: "A list of group box", icon: "square.grid.2x2.fill"))
                             }
                         )
                         Divider()
@@ -41,12 +39,25 @@ struct ContentView: View {
                         NavigationLink (
                             destination: GroupBoxAdvancedView(),
                             label: {
-                                NavigationLabelView(view: MyViews(title: "Advanced Group Box", description: "Next level grouped boxes...", icon: "rectangle.grid.1x2.fill", color: .green))
+                                NavigationLabelView(view: MyViews(title: "Advanced Group Box", description: "Next level grouped boxes...", icon: "rectangle.grid.1x2.fill"))
                             }
                         )
-                        Divider()
                         
-                    }).padding(.top)
+                    }.padding(.top)
+                
+                Section(header: SectionHeaderView(title: "SwiftUI 3", color: .blue)) {
+                    
+                    // Pull to refresh
+                    NavigationLink (
+                        destination: PullToRefreshView(),
+                        label: {
+                            NavigationLabelView(view: MyViews(title: "Pull to refresh", description: "A simple pull to refresh appending an array", icon: "arrow.down.circle.fill", color: .blue))
+                        }
+                    )
+                    
+                    Divider()
+                    
+                }.padding(.top)
                 
             }
             .navigationTitle("SwiftUI Playground")
@@ -80,6 +91,7 @@ struct NavigationToolItemsView: View {
 struct SectionHeaderView: View {
     
     var title: String = "My Section"
+    var color: Color = .accentColor
     
     var body: some View {
         HStack {
@@ -87,13 +99,13 @@ struct SectionHeaderView: View {
                 Text(title)
                     .textCase(.uppercase)
                     .font(.footnote)
-                    .foregroundColor(.accentColor)
+                    .foregroundColor(color)
             }
             Spacer()
         }
         .padding(.vertical, 5)
         .padding(.horizontal)
-        .background(Color.accentColor.opacity(0.2))
+        .background(color.opacity(0.2))
     }
 }
 

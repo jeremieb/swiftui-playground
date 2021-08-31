@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0281C25626DDF81B00267336 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281C25526DDF81B00267336 /* PullToRefreshView.swift */; };
+		0281C25726DDF81B00267336 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281C25526DDF81B00267336 /* PullToRefreshView.swift */; };
+		0281C25826DDF81B00267336 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281C25526DDF81B00267336 /* PullToRefreshView.swift */; };
+		0281C25926DDF81B00267336 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281C25526DDF81B00267336 /* PullToRefreshView.swift */; };
 		1E29E2432696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */; };
 		1E29E2442696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */; };
 		1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2312696C9B800F635C7 /* ContentView.swift */; };
@@ -108,6 +112,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0281C25526DDF81B00267336 /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
 		1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PlaygroundApp.swift; sourceTree = "<group>"; };
 		1E29E2312696C9B800F635C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E29E2322696C9B900F635C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -278,6 +283,7 @@
 				1E9089E726A0062D00C42BE8 /* SliderView.swift */,
 				1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */,
 				1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */,
+				0281C25526DDF81B00267336 /* PullToRefreshView.swift */,
 			);
 			path = LibrariesViews;
 			sourceTree = "<group>";
@@ -454,7 +460,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					1E29E2362696C9B900F635C7 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -477,7 +483,7 @@
 				};
 			};
 			buildConfigurationList = 1E29E22E2696C9B800F635C7 /* Build configuration list for PBXProject "SwiftUI Playground" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -564,6 +570,7 @@
 				1E29E2602696CF1B00F635C7 /* DetailView.swift in Sources */,
 				1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25A2696CBF400F635C7 /* Colors.swift in Sources */,
+				0281C25626DDF81B00267336 /* PullToRefreshView.swift in Sources */,
 				1E29E2432696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */,
 				1E57B42026CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 				1E29E2562696CB7B00F635C7 /* Constants.swift in Sources */,
@@ -582,6 +589,7 @@
 				1E29E2612696CF1B00F635C7 /* DetailView.swift in Sources */,
 				1E29E2462696C9B900F635C7 /* ContentView.swift in Sources */,
 				1E29E25B2696CBF400F635C7 /* Colors.swift in Sources */,
+				0281C25726DDF81B00267336 /* PullToRefreshView.swift in Sources */,
 				1E29E2442696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */,
 				1E57B42126CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 				1E29E2572696CB7B00F635C7 /* Constants.swift in Sources */,
@@ -606,6 +614,7 @@
 				1EA24FE5269D5EC2006E0F7C /* Constants.swift in Sources */,
 				1E6561A5269D65620016049D /* SettingsView.swift in Sources */,
 				1E57B42226CB9035005FB0FD /* GroupBoxView.swift in Sources */,
+				0281C25826DDF81B00267336 /* PullToRefreshView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +630,7 @@
 				1EA24FF1269D5F32006E0F7C /* ContentView.swift in Sources */,
 				1EA24FED269D5ED0006E0F7C /* Colors.swift in Sources */,
 				1EA24FEC269D5ECD006E0F7C /* NavigationLabelView.swift in Sources */,
+				0281C25926DDF81B00267336 /* PullToRefreshView.swift in Sources */,
 				1EA24FEA269D5ECA006E0F7C /* DetailView.swift in Sources */,
 				1E57B42326CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 				1EA24FE6269D5EC2006E0F7C /* Constants.swift in Sources */,
@@ -694,6 +704,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -747,6 +759,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -764,7 +778,7 @@
 				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -788,7 +802,7 @@
 				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -809,6 +823,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
@@ -833,6 +848,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PNJ2ZGDY4C;
