@@ -19,6 +19,7 @@ struct NavigationLabelView: View {
                 Text(view.description).font(.subheadline).foregroundColor(.gray)
             }
             Spacer()
+            Image(systemName: "chevron.right").foregroundColor(.gray).opacity(0.4)
         }.padding(.horizontal, 8)
     }
 }

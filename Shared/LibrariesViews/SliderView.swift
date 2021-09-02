@@ -10,6 +10,7 @@ import SwiftUI
 struct SliderView: View {
     
     @State private var sliderData: Double = 0
+    @State private var fixRefresh: String = ""
     
     var body: some View {
         VStack {

@@ -14,6 +14,30 @@ struct ContentView: View {
             
             ScrollView {
                 
+                // MARK: SWIFTUI 3
+                Section(header: SectionHeaderView(title: "SwiftUI 3", color: .blue)) {
+                    
+                    // Pull to refresh
+                    NavigationLink (
+                        destination: PullToRefreshView(),
+                        label: {
+                            NavigationLabelView(view: MyViews(title: "Pull to refresh", description: "A simple pull to refresh appending an array", icon: "arrow.down.circle.fill", color: .blue))
+                        }
+                    )
+                    
+                    Divider()
+                    
+                    // List
+                    NavigationLink (
+                        destination: ListCustomViews(),
+                        label: {
+                            NavigationLabelView(view: MyViews(title: "List customization", description: "List with custom design.", icon: "list.dash", color: .blue))
+                        }
+                    )
+                    
+                }.padding(.top)
+                
+                // MARK: SWIFTUI 2
                 Section(
                     header: SectionHeaderView(title: "SwiftUI 2")) {
                         
@@ -42,22 +66,9 @@ struct ContentView: View {
                                 NavigationLabelView(view: MyViews(title: "Advanced Group Box", description: "Next level grouped boxes...", icon: "rectangle.grid.1x2.fill"))
                             }
                         )
+                        Divider()
                         
                     }.padding(.top)
-                
-                Section(header: SectionHeaderView(title: "SwiftUI 3", color: .blue)) {
-                    
-                    // Pull to refresh
-                    NavigationLink (
-                        destination: PullToRefreshView(),
-                        label: {
-                            NavigationLabelView(view: MyViews(title: "Pull to refresh", description: "A simple pull to refresh appending an array", icon: "arrow.down.circle.fill", color: .blue))
-                        }
-                    )
-                    
-                    Divider()
-                    
-                }.padding(.top)
                 
             }
             .navigationTitle("SwiftUI Playground")

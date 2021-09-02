@@ -11,6 +11,10 @@
 		0281C25726DDF81B00267336 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281C25526DDF81B00267336 /* PullToRefreshView.swift */; };
 		0281C25826DDF81B00267336 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281C25526DDF81B00267336 /* PullToRefreshView.swift */; };
 		0281C25926DDF81B00267336 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281C25526DDF81B00267336 /* PullToRefreshView.swift */; };
+		02A08D2326E09A6D00186A28 /* ListCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A08D2226E09A6D00186A28 /* ListCustomViews.swift */; };
+		02A08D2426E09A6D00186A28 /* ListCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A08D2226E09A6D00186A28 /* ListCustomViews.swift */; };
+		02A08D2526E09A6D00186A28 /* ListCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A08D2226E09A6D00186A28 /* ListCustomViews.swift */; };
+		02A08D2626E09A6D00186A28 /* ListCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A08D2226E09A6D00186A28 /* ListCustomViews.swift */; };
 		1E29E2432696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */; };
 		1E29E2442696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */; };
 		1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2312696C9B800F635C7 /* ContentView.swift */; };
@@ -113,6 +117,7 @@
 
 /* Begin PBXFileReference section */
 		0281C25526DDF81B00267336 /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+		02A08D2226E09A6D00186A28 /* ListCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCustomViews.swift; sourceTree = "<group>"; };
 		1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PlaygroundApp.swift; sourceTree = "<group>"; };
 		1E29E2312696C9B800F635C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E29E2322696C9B900F635C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -284,6 +289,7 @@
 				1E57B41F26CB9035005FB0FD /* GroupBoxView.swift */,
 				1EAAA36E26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift */,
 				0281C25526DDF81B00267336 /* PullToRefreshView.swift */,
+				02A08D2226E09A6D00186A28 /* ListCustomViews.swift */,
 			);
 			path = LibrariesViews;
 			sourceTree = "<group>";
@@ -562,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A08D2326E09A6D00186A28 /* ListCustomViews.swift in Sources */,
 				1E29E25D2696CC3B00F635C7 /* MyViews.swift in Sources */,
 				1EAAA36F26CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1E6561A3269D65620016049D /* SettingsView.swift in Sources */,
@@ -581,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A08D2426E09A6D00186A28 /* ListCustomViews.swift in Sources */,
 				1E29E25E2696CC3B00F635C7 /* MyViews.swift in Sources */,
 				1EAAA37026CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1E6561A4269D65620016049D /* SettingsView.swift in Sources */,
@@ -605,6 +613,7 @@
 				1EA24FE9269D5EC9006E0F7C /* DetailView.swift in Sources */,
 				1EA24FBF269D5E49006E0F7C /* ComplicationController.swift in Sources */,
 				1EA24FE7269D5EC6006E0F7C /* MyViews.swift in Sources */,
+				02A08D2526E09A6D00186A28 /* ListCustomViews.swift in Sources */,
 				1EA24FB7269D5E49006E0F7C /* SwiftUI_PlaygroundApp.swift in Sources */,
 				1EAAA37126CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1EA24FEF269D5F00006E0F7C /* ContentView.swift in Sources */,
@@ -622,6 +631,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A08D2626E09A6D00186A28 /* ListCustomViews.swift in Sources */,
 				1EA24FE8269D5EC6006E0F7C /* MyViews.swift in Sources */,
 				1EAAA37226CCDE4F00C9F0C1 /* GroupBoxAdvancedView.swift in Sources */,
 				1E6561A6269D65620016049D /* SettingsView.swift in Sources */,
