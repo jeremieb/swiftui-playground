@@ -61,7 +61,7 @@ struct ContentView: View {
                         )
                         Divider()
                         
-                        //Group Box
+                        // Group Box
                         NavigationLink(
                             destination: GroupBoxView(),
                             label: {
