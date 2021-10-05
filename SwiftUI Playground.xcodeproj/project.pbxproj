@@ -15,6 +15,8 @@
 		02A08D2426E09A6D00186A28 /* ListCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A08D2226E09A6D00186A28 /* ListCustomViews.swift */; };
 		02A08D2526E09A6D00186A28 /* ListCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A08D2226E09A6D00186A28 /* ListCustomViews.swift */; };
 		02A08D2626E09A6D00186A28 /* ListCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A08D2226E09A6D00186A28 /* ListCustomViews.swift */; };
+		02BEC97E270C26A8004BE2EB /* BarrelExperience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 02BEC97D270C26A8004BE2EB /* BarrelExperience.rcproject */; };
+		02BEC980270C26C6004BE2EB /* ARBarrelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BEC97F270C26C6004BE2EB /* ARBarrelView.swift */; };
 		1E29E2432696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */; };
 		1E29E2442696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */; };
 		1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E2312696C9B800F635C7 /* ContentView.swift */; };
@@ -118,6 +120,8 @@
 /* Begin PBXFileReference section */
 		0281C25526DDF81B00267336 /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
 		02A08D2226E09A6D00186A28 /* ListCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCustomViews.swift; sourceTree = "<group>"; };
+		02BEC97D270C26A8004BE2EB /* BarrelExperience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = BarrelExperience.rcproject; path = "3D files/BarrelExperience.rcproject"; sourceTree = SOURCE_ROOT; };
+		02BEC97F270C26C6004BE2EB /* ARBarrelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBarrelView.swift; sourceTree = "<group>"; };
 		1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PlaygroundApp.swift; sourceTree = "<group>"; };
 		1E29E2312696C9B800F635C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E29E2322696C9B900F635C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -209,7 +213,6 @@
 				1E9089E326A0048E00C42BE8 /* LibrariesViews */,
 				1E29E2582696CBE600F635C7 /* Extensions */,
 				1E29E2542696CB6800F635C7 /* Views */,
-				1E29E2532696CB5F00F635C7 /* ViewModel */,
 				1E29E2522696CB5900F635C7 /* Models */,
 				1E29E2302696C9B800F635C7 /* SwiftUI_PlaygroundApp.swift */,
 				1E29E2312696C9B800F635C7 /* ContentView.swift */,
@@ -234,6 +237,8 @@
 		1E29E2392696C9B900F635C7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				02BEC97F270C26C6004BE2EB /* ARBarrelView.swift */,
+				02BEC97D270C26A8004BE2EB /* BarrelExperience.rcproject */,
 				1E29E23A2696C9B900F635C7 /* Info.plist */,
 			);
 			path = iOS;
@@ -255,13 +260,6 @@
 				1E29E25C2696CC3B00F635C7 /* MyViews.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		1E29E2532696CB5F00F635C7 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		1E29E2542696CB6800F635C7 /* Views */ = {
@@ -576,9 +574,11 @@
 				1E9089E826A0062D00C42BE8 /* SliderView.swift in Sources */,
 				1E29E2602696CF1B00F635C7 /* DetailView.swift in Sources */,
 				1E29E2452696C9B900F635C7 /* ContentView.swift in Sources */,
+				02BEC980270C26C6004BE2EB /* ARBarrelView.swift in Sources */,
 				1E29E25A2696CBF400F635C7 /* Colors.swift in Sources */,
 				0281C25626DDF81B00267336 /* PullToRefreshView.swift in Sources */,
 				1E29E2432696C9B900F635C7 /* SwiftUI_PlaygroundApp.swift in Sources */,
+				02BEC97E270C26A8004BE2EB /* BarrelExperience.rcproject in Sources */,
 				1E57B42026CB9035005FB0FD /* GroupBoxView.swift in Sources */,
 				1E29E2562696CB7B00F635C7 /* Constants.swift in Sources */,
 			);

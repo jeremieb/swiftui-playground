@@ -35,6 +35,17 @@ struct ContentView: View {
                         }
                     )
                     
+                    #if os(iOS)
+                    Divider()
+                    
+                    NavigationLink (
+                        destination: ARBarrelView(),
+                        label: {
+                            NavigationLabelView(view: MyViews(title: "AR Experience", description: "Playing with AR.", icon: "cube.transparent", color: .blue))
+                        }
+                    )
+                    #endif
+                    
                 }.padding(.top)
                 
                 // MARK: SWIFTUI 2
