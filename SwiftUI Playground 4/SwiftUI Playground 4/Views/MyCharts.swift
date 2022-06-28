@@ -12,11 +12,19 @@ struct MyCharts: View {
     var body: some View {
         ScrollView {
             GroupBox("Invoices") {
-                Chart(invoicesData, id: \.id) { invoice in
-                    BarMark (
-                        x: .value("Something", invoice.dueDate),
-                        y: .value(invoice.client, invoice.amount)
-                    )
+                Chart {
+                    ForEach(invoicesData, id: \.id) { invoice in
+                        BarMark (
+                            x: .value("Something", invoice.dueDate, unit: .month),
+                            y: .value(invoice.client, invoice.amount)
+                        ).foregroundStyle(Color.pink).opacity(0.4)
+                        LineMark(
+                            x: .value("Something", invoice.dueDate, unit: .month),
+                            y: .value(invoice.client, invoice.amount)
+                        ).foregroundStyle(Color.pink).interpolationMethod(.cardinal)
+                    }
+                    
+                        
                 }
             }.frame(minHeight: 250)
         }
